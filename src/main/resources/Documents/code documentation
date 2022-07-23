@@ -35,7 +35,8 @@ How to run and build this  project:
 1. used intellij , you can download community edition.
 2. set up  project configuration  by selecting Run/Debug configuration from drop down menu at the top.
 3. Run maven clean install to clean and download dependencies.
-4. to Run this project click run from a top menu, and when the project is started you will see a red button to stop a project
+4. or run Build from a top menu to build a project.
+5. to Run this project click run from a top menu, and when the project is started you will see a red button to stop a project
 
 
 How to test the solution:
