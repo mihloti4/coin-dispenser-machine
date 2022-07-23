@@ -30,13 +30,16 @@ What the function returns: return minimum number of coins .
 
 Build:         Maven
 
-How to run this  project:
+How to run and build this  project:
 -------------------------
-1. you need Java JDK 11.
-2. any IDE.
-3. I use swagger ui to document my APIs and test .
-4. Maven build project.
+1. used intellij , you can download community edition.
+2. set up  project configuration  by selecting Run/Debug configuration from drop down menu at the top.
+3. Run maven clean install to clean and download dependencies.
+4. to Run this project click run from a top menu, and when the project is started you will see a red button to stop a project
 
+
+How to test the solution:
+----------------------------------------------
 *NB : http://localhost:8080/swagger-ui.html  to see documented APIs.
 *When you are on swagger ui page you will see :
 coin-dispenser-controller , then click on it and access /api/coindispensery/calculateMinNumOfCoinForAmount,then click on it then click on try it out, and
