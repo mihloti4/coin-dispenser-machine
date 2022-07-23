@@ -1,0 +1,55 @@
+Project Title:
+---------------
+* Coin dispenser machine project.
+
+Description:
+--------------
+* Is a springBoot Coin dispenser machine project to calculate the minimum number of coins needed to make change for a given amount.
+
+Prerequisites:
+-----------------
+* SpringBoot knowledge.
+
+Installation:
+---------------------------
+ *Java JDK 11 ,
+ * Intellij or any IDE
+
+server :
+ ----------------------------
+ * I used  embedded tomcat server that comes with SpringBoot.
+
+ NB******* the application should be started in order to open swagger ui
+
+function/Method:
+-------------------
+name:         calculateMinCoinsForGivenAmount.
+Description:  it calculates minimum number of coins needed to give change for a given amount.
+Parameters:   int[] coins and int amount.
+What the function returns: return minimum number of coins .
+
+Build:         Maven
+
+How to run this  project:
+-------------------------
+1. you need Java JDK 11.
+2. any IDE.
+3. I use swagger ui to document my APIs and test .
+4. Maven build project.
+
+*NB : http://localhost:8080/swagger-ui.html  to see documented APIs.
+*When you are on swagger ui page you will see :
+coin-dispenser-controller , then click on it and access /api/coindispensery/calculateMinNumOfCoinForAmount,then click on it then click on try
+then you will see parameters heading with name and description, on name is name of yoa parameter and description is a description of  parameter.
+there is input box for int amount parameter, and there is Add items Button to add coins array parameters, on coin parameters and one tem at a time ,
+you can add as much items  as you want then click execute to calculate minimum number of coins needed to give change to a given amount. and the check  response  under Responses.
+
+
+URLs:
+ 1.to access swagger locally to test API:
+ -----------------------------------------
+swagger url for local host : http://localhost:8080/swagger-ui.html
+
+2 API:
+/api/coindispensery/calculateMinNumOfCoinForAmount calculateMinNumOfCoinForAmount
+
