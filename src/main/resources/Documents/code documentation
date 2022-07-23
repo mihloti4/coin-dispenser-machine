@@ -39,11 +39,12 @@ How to run this  project:
 
 *NB : http://localhost:8080/swagger-ui.html  to see documented APIs.
 *When you are on swagger ui page you will see :
-coin-dispenser-controller , then click on it and access /api/coindispensery/calculateMinNumOfCoinForAmount,then click on it then click on try
-then you will see parameters heading with name and description, on name is name of yoa parameter and description is a description of  parameter.
-there is input box for int amount parameter, and there is Add items Button to add coins array parameters, on coin parameters and one tem at a time ,
-you can add as much items  as you want then click execute to calculate minimum number of coins needed to give change to a given amount. and the check  response  under Responses.
-
+coin-dispenser-controller , then click on it and access /api/coindispensery/calculateMinNumOfCoinForAmount,then click on it then click on try it out, and
+then you will see parameters heading with name and description, on the name is the name of a parameter and description represents a description of parameter.
+there is an input box for int amount parameter, and there is an Add items Button to add coins array parameters, on the coin parameter add one item at a time,
+you can add as many items  as you want then click execute to calculate minimum number of coins needed to give you a change of a given amount,
+and then check the response  under the Responses. The calculated change will appear on the responses as per the requested amount see
+sample_request_and_response.pdf for details under resources
 
 URLs:
  1.to access swagger locally to test API:
