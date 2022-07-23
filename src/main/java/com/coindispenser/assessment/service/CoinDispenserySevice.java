@@ -46,7 +46,7 @@ public class CoinDispenserySevice implements CoinDispenseryInterface {
         if (coins == null) throw new IllegalArgumentException("COINS ARRAY IS NULL");
         if (coins.length == 0) throw new IllegalArgumentException("NO COINS VALUES ");
         if(amount  == 0)throw new IllegalArgumentException("AMOUNT CANNOT BE ZERO(O)");
-        for (int i = 0; i<= coins.length; i++){
+        for (int i = 0; i<coins.length; i++){
             if(coins[i] == 0){
                 throw new IllegalArgumentException("NO COINS VALUES!!!!! ");
             }
